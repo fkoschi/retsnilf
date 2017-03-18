@@ -1,0 +1,155 @@
+html
+{
+	background-color: rgb(245,245,245);
+	/*min-height: 100%;*/
+}
+body
+{
+	/*min-height: 100%;*/
+}
+main
+{
+	padding-left: 300px;
+}
+#stage
+{
+	/*width: 100%;*/
+}
+#static-nav-left
+{
+	width: 50px;
+	background: rgb(221,233,163);
+	min-height: 100%;
+	float: left;
+}
+#static-nav-left li, #static-nav-left li a 
+{
+	height: 60px;
+
+}
+#group_header
+{
+	height: 210px;
+	background-color: red;
+	background-image: url(fussball-rasen.jpg);
+	background-size: 100% 100%;
+}
+#group_header #transparent-group-header-footer
+{
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	height: 70px;
+	display: inline-block;
+	margin-top: 100px;
+	float: left;
+}
+#group_header #transparent-group-header-footer h5
+{
+	margin-left: 10px;
+	width: 100%;
+	line-height: 50px;
+}
+#
+#dynamic-nav-right 
+{
+	border: none;
+}
+#menu-group-header 
+{
+	height: 40px;
+	width: 100%;
+	background-color: rgb(179,208,50);
+	margin-top: 0px;
+	display: inline-block;
+}
+#menu-group-header ul
+{
+    height: 40px;
+    margin: 0 0 0 10px;
+}
+#menu-group-header li 
+{
+	height: 40px;
+	line-height: 40px;
+	width: 60px;
+	display: table-cell;
+	color: white;
+}
+#dynamic-nav-right li.collection-item 
+{
+	height: 60px;
+	border-bottom: 1px solid rgb(204,204,204);
+}
+#dynamic-nav-right .collection-item span 
+{
+	font-size: 11px;
+	color: rgb(188,	212,71);
+	margin-left: 10px;
+}
+#nav-mobile
+{
+	overflow-y: hidden;
+}
+#left_container
+{
+	-webkit-box-shadow: 4px 0px 7px -1px rgba(173,173,173,1);
+	-moz-box-shadow: 4px 0px 7px -1px rgba(173,173,173,1);
+	box-shadow: 4px 0px 7px -1px rgba(173,173,173,1);
+	background-color: rgb(255,255,255);
+	height: 100%;
+}
+#center_container
+{
+	/*background-color: rgb(245,245,245);*/
+	
+	
+}
+#right_container
+{
+	-webkit-box-shadow: -4px 0px 7px -1px rgba(173,173,173,1);
+	-moz-box-shadow: -4px 0px 7px -1px rgba(173,173,173,1);
+	box-shadow: -4px 0px 7px -1px rgba(173,173,173,1);
+	background-color: rgb(255,255,255);
+	height: 100%;
+}
+#card-sub-wrapper
+{
+	margin-bottom: 0;
+}
+#card-sub-span-time
+{
+	font-size: 10px;
+	margin-left: 10px;
+	color: #999999;
+}
+#card-sub-grouptype
+{
+	font-size: 12px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#logo-container
+{
+	margin-top: 10px;
+
+}
+#left_collection
+{
+	max-width: 20%;
+	background: #EE6E73;
+	float: left;
+}
+#right_collection
+{
+	width: 100%;
+	height: 100%;
+}
+#right-collection .collection li.collection-item 
+{
+	height: 60px !important;
+}
+#nickname-container
+{
+	margin-left: 10px;
+}

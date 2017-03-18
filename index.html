@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+	
+	<!-- main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen,projection">
+
+	<!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<title>Flinster</title>
+
+
+</head>
+<body>
+
+	<header>
+		<ul id="nav-mobile" class="side-nav fixed">
+			
+			<div id="logo-container" class="row center-align">
+				<img style="margin-left: 10px" src="dropbox.png" height="64px" width="64px">
+			</div>
+			
+			<div id="nickname-container" class="row valign-wrapper">
+				<img src="micha.jpg" class="circle responsive-img" height="34px" width="34px">
+				<h5 style="margin-left: 5px">Name</h5>
+			</div>
+
+			<ul id="static-nav-left">
+				<li><a href="#" class="collection-item"><i class="material-icons">info_outline</i></a></li>
+				<li><a href="#" class="collection-item"><i class="material-icons">input</i></a></li>
+				<li><a href="#" class="collection-item"><i class="material-icons">query_builder</i></a></li>
+			</ul>
+			
+			<div id="dynamic-nav-right" class="collection">
+				<li class="collection-item">Nachrichten <br><span>2 Neue Nachrichten</span></li>
+				<li class="collection-item">Kalender <br><span>1 Neuer Termin</span></li>
+				<li class="collection-item">Erinnerungen <br><span >5 Neue Erinnerungen</span></li>
+				<li class="collection-item">Karte <br><span>3 Neue Locations</span></li>
+				<li class="collection-item">Speicher <br><span >4 Neue Speicher</span></li>				
+			</div>
+
+		</ul>
+	</header>
+	<main>
+		<div id="stage" class="">
+			
+			<!-- Fixed Button -->
+			<div class="fixed-action-btn" style="bottom: 15px; right: 15px;">
+    			<a id="burger" data-activates="slide-out" class="btn-floating btn-large" style="background-color: black;">
+    			  <i class="large material-icons">reorder</i>
+    			</a>	
+  			</div>
+			
+			<!-- Center Container -->
+			<div class="row">	
+	
+				<ul class="tabs">
+					<li class="tab"><a href="#">Test 1</a></li>
+					<li class="tab"><a href="#">Test 2</a></li>
+					<li class="tab"><a href="#">Test 3</a></li>
+					<li class="tab"><a href="#">Test 4</a></li>
+				</ul>
+
+				<div class="col m6">
+
+					<!-- Card -->
+					<div class="card hoverable">	
+						<div class="card-image">
+							<img src="munich.jpg">
+							<span class="card-title"> Gruppenname</span>
+						</div>
+						<div class="card-content">
+							<p class="center-align">Beatiful Munich</p>
+						</div>
+
+						<div id="card-sub" class="card-action">
+							<div id="card-sub-wrapper" class="valign-wrapper">
+								<img src="micha.jpg" class="circle responsive-img" height="34px" width="34px">
+								<p style="margin-left: 5px">Vorname Nachname <br> <span id="card-sub-span-time">Datum und Uhrzeit</span></p>			
+							</div>
+							<p id="card-sub-grouptype" class="right-align">Gruppentyp</p>								
+						</div>
+					</div>
+
+					<!-- Card -->
+					<div class="card hoverable">	
+			
+						<div class="card-content">
+							<span class="card-title"> Gruppenname</span>
+							<p>Wir gehen am Donnerstag ins Kino, welchen Film wollen wir uns anschauen?</p>
+
+							<div class="collection">
+								<a href="#" class="collection-item">Film</a>
+								<a href="#" class="collection-item">Film</a>
+								<a href="#" class="collection-item">Film</a>					
+							</div>
+
+						</div>
+
+						<div id="card-sub" class="card-action">
+							<div id="card-sub-wrapper" class="valign-wrapper">
+								<img src="micha.jpg" class="circle responsive-img" height="34px" width="34px">
+								<p style="margin-left: 5px">Vorname Nachname <br> <span id="card-sub-span-time">Datum und Uhrzeit</span></p>			
+							</div>
+							<p id="card-sub-grouptype" class="right-align">Gruppentyp</p>								
+						</div>
+					</div>
+
+				</div>	
+
+				<div class="col m6">
+
+					<!-- Card -->
+					<div class="card hoverable">	
+			
+						<div class="card-content">
+							<span class="card-title"> Gruppenname</span>
+							<p>Welcher Typ schreibt jetzt eigentlich bei der Auswahl dann noch Status-Updates?</p>
+						</div>
+
+						<div id="card-sub" class="card-action">
+							<div id="card-sub-wrapper" class="valign-wrapper">
+								<img src="micha.jpg" class="circle responsive-img" height="34px" width="34px">
+								<p style="margin-left: 5px">Vorname Nachname <br> <span id="card-sub-span-time">Datum und Uhrzeit</span></p>			
+							</div>
+							<p id="card-sub-grouptype" class="right-align">Gruppentyp</p>								
+						</div>
+					</div>
+
+					<!-- Card -->
+					<div class="card hoverable">							
+						<div class="card-image">
+							<img src="map.png">
+							<span class="card-title">Gruppenname</span>								
+						</div>
+						<div class="card-content">
+							<div class="valign-wrapper">
+								<a class="waves-effect waves-light btn"><i class="material-icons left">thumb_up</i>dabei</a>
+								<a class="waves-effect waves-light btn"><i class="material-icons left">thumb_down</i>Absagen</a>
+							</div>						
+							
+						</div>
+
+						<div id="card-sub" class="card-action">
+							<div id="card-sub-wrapper" class="valign-wrapper">
+								<img src="micha.jpg" class="circle responsive-img" height="34px" width="34px">
+								<p style="margin-left: 5px">Vorname Nachname <br> <span id="card-sub-span-time">Datum und Uhrzeit</span></p>			
+							</div>
+							<p id="card-sub-grouptype" class="right-align">Gruppentyp</p>								
+						</div>
+					</div>
+
+				</div>	
+
+			</div>
+	
+			<!-- Right SideNav for Chat -->
+			<ul id="slide-out" class="side-nav">
+    			<li><a class="subheader">Gruppenchat</a></li>
+    			<li><div class="divider"></div></li>
+
+				<!-- Textarea for Chat -->
+    			<div class="row">
+  				  <form class="col s12">
+  				    <div class="row">
+  				      <div class="input-field col s12">
+  				        <textarea id="textarea1" class="materialize-textarea"></textarea>
+  				        <label for="textarea1">Textarea</label>
+  				      </div>
+  				    </div>
+  				  </form>
+  				</div>
+  			</ul>
+		
+		</div>
+
+	</main>
+	
+	
+	
+		
+
+	<!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
